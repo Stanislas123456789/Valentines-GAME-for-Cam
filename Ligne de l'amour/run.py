@@ -1,10 +1,6 @@
-from flask import Flask
+from mon_app import create_app
 
-app = Flask(__name__)
-
-@app.route('/')
-def home():
-    return "Hello, this is your Flask app!"
+app = create_app()
 
 if __name__ == '__main__':
     app.run(debug=True)
