@@ -1,4 +1,5 @@
-const story = [
+document.addEventListener("DOMContentLoaded", function() {
+    const story = [
     {
         text: "In a Victorian mansion's dimly lit gallery, an enigmatic portrait catches your eye. The brushstrokes seem to shimmer with an otherworldly quality...",
         background: "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1618220671537-c819e3f1274a')",
@@ -260,3 +261,4 @@ window.addEventListener('load', () => {
 
 // End of script.js
 
+}); 
